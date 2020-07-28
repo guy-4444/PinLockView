@@ -1,4 +1,5 @@
 # PinLockView
+## Only for Theme.MaterialComponents style
 A clean, minimalistic, easy-to-use and highly customizable pin lock custom view for Android.
 
 ### Specs
