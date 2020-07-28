@@ -6,6 +6,12 @@ A clean, minimalistic, easy-to-use and highly customizable pin lock custom view 
 
 ![PinLockView](https://github.com/aritraroy/PinLockView/blob/master/screens/logo.png)
 
+
+
+[![](https://jitpack.io/v/guy-4444/PinLockView.svg)](https://jitpack.io/#guy-4444/PinLockView)
+
+![PinLockView](https://github.com/aritraroy/PinLockView/blob/master/screens/logo.png)
+
 This library allows you to implement a pin lock mechanism in your app **easily and quickly**. There are **plenty of customization options** available to change the look-and-feel of this view to match your app's theme.
 
 You can also use it as a dial pad to dial numbers. There are several other use cases of this library and is not restricted to only pin locking.
@@ -17,23 +23,44 @@ You can also use it as a dial pad to dial numbers. There are several other use c
 This library is available in **jCenter** which is the default Maven repository used in Android Studio.
 
 ## Gradle 
+Step 1. Add it in your root build.gradle at the end of repositories:
+```gradle
+allprojects {
+    repositories {
+	maven { url 'https://jitpack.io' }
+    }
+}
+```
+
+Step 2. Add the dependency:
+
 ```gradle
 dependencies {
-    // other dependencies here
-    
-    implementation 'com.andrognito.pinlockview:pinlockview:2.1.0'
+	        implementation 'com.github.guy-4444:PinLockView:2.2.0'
 }
 ```
 
 ## Maven
 
+Step 1. Add the JitPack repository to your build file:
+
 ```xml
-<dependency>
-  <groupId>com.andrognito.pinlockview</groupId>
-  <artifactId>pinlockview</artifactId>
-  <version>2.1.0</version>
-  <type>pom</type>
-</dependency>
+	<repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+```
+
+Step 2. Add the dependency:
+
+```xml
+	<dependency>
+	    <groupId>com.github.guy-4444</groupId>
+	    <artifactId>PinLockView</artifactId>
+	    <version>2.2.0</version>
+	</dependency>
 ```
 
 # Usage
