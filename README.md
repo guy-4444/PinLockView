@@ -2,10 +2,9 @@
 A clean, minimalistic, easy-to-use and highly customizable pin lock custom view for Android.
 
 ### Specs
-[ ![Download](https://api.bintray.com/packages/aritraroy/maven/pin-lock-view/images/download.svg) ](https://bintray.com/aritraroy/maven/pin-lock-view/_latestVersion) [![API](https://img.shields.io/badge/API-11%2B-orange.svg?style=flat)](https://android-arsenal.com/api?level=11) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-PinLockView-green.svg?style=true)](https://android-arsenal.com/details/1/3706)
-
+[ ![Download](https://api.bintray.com/packages/aritraroy/maven/pin-lock-view/images/download.svg) ](https://bintray.com/aritraroy/maven/pin-lock-view/_latestVersion) [![API](https://img.shields.io/badge/API-11%2B-orange.svg?style=flat)](https://android-arsenal.com/api?level=11) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![Android Arsenal]
 [![](https://jitpack.io/v/guy-4444/PinLockView.svg)](https://jitpack.io/#guy-4444/PinLockView)
-
+[![API](https://img.shields.io/badge/API-14%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=14)
 
 ![PinLockView](https://github.com/aritraroy/PinLockView/blob/master/screens/logo.png)
 
