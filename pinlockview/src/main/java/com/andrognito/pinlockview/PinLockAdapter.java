@@ -4,7 +4,6 @@ import android.content.Context;
 import android.graphics.PorterDuff;
 import android.graphics.Rect;
 import android.os.Build;
-import android.support.v7.widget.RecyclerView;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
@@ -13,6 +12,10 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+
+import androidx.recyclerview.widget.RecyclerView;
+
+import com.google.android.material.button.MaterialButton;
 
 /**
  * Created by aritraroy on 31/05/16.
@@ -179,11 +182,11 @@ public class PinLockAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
     }
 
     public class NumberViewHolder extends RecyclerView.ViewHolder {
-        Button mNumberButton;
+        MaterialButton mNumberButton;
 
         public NumberViewHolder(final View itemView) {
             super(itemView);
-            mNumberButton = (Button) itemView.findViewById(R.id.button);
+            mNumberButton = itemView.findViewById(R.id.button);
             mNumberButton.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
